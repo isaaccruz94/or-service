@@ -1,0 +1,23 @@
+:root{
+    --blue-primary: #0A5CA8;
+    --blue-second: #1E88E5;
+    --blue-dark: #083B6F;
+    --white: #ffffff;
+    --gray: #F5F7FA;
+    --gray-medium: #A0A7B1;
+    --gray-silver: #C9CED6;
+    --gray-steel: #6B7280;
+    --gray-dark: #3A3F45;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url("/assets/fonts/Montserrat/static/Montserrat-Medium.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("/assets/fonts/Inter/static/Inter_24pt-Black.ttf");
+    font-weight: 800;
+    font-style: bold;
+}

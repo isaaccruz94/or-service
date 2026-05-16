@@ -1,0 +1,35 @@
+.hero{
+    inline-size: 26.5rem;
+    font-family: "Inter";
+    color: var(--gray-silver);
+}
+.hero-title{
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin: 0;
+    color: var(--white);
+}
+.hero-title span{
+    color: var(--blue-second);
+}
+.hero-subtitle{
+    margin-block-start: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.hero-text{
+    font-weight: 400;
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon p{
+    margin: 0;
+    text-transform: uppercase;
+}
