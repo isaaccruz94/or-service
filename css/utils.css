@@ -8,16 +8,62 @@
     --gray-silver: #C9CED6;
     --gray-steel: #6B7280;
     --gray-dark: #3A3F45;
+
+    --baseFontFamily: Montserrat, Helvetica, sans-serif;
+    --secondFontFamily: Inter, Helvetica, sans-serif;
+    --sheaders: 600 2.5rem/normal var(--secondFontFamily);
+    --stext: 400 1rem/normal var(--secondFontFamily);
+    --snav: 600 1.5rem/normal var(--secondFontFamily);
+    --fheaders: 800 2.5rem/normal var(--baseFontFamily);
+    --ftext: 400 1rem/normal var(--baseFontFamily);
+    --fnav: 600 1.5rem/normal var(--baseFontFamily);
+    --flight: 200 .8rem/normal var(--baseFontFamily); 
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("/assets/fonts/Montserrat/static/Montserrat-Light.ttf");
+    font-weight: 200;
+    font-style: normal;
 }
 @font-face{
-    font-family: "Montserrat";
+    font-family: Montserrat;
     src: url("/assets/fonts/Montserrat/static/Montserrat-Medium.ttf");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: "Inter";
-    src: url("/assets/fonts/Inter/static/Inter_24pt-Black.ttf");
+    font-family: Montserrat;
+    src: url("/assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+    font-style: bold;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("/assets/fonts/Montserrat/static/Montserrat-Bold.ttf");
     font-weight: 800;
     font-style: bold;
+}
+@font-face {
+    font-family: Inter;
+    src: url("/assets/fonts/Inter/static/Inter_24pt-Light.ttf");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url("/assets/fonts/Inter/static/Inter_18pt-Medium.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url("/assets/fonts/Inter/static/Inter_24pt-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url("/assets/fonts/Inter/static/Inter_24pt-Black.ttf");
+    font-weight: 800;
+    font-style: normal;
 }

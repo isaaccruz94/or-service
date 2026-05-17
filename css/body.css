@@ -1,21 +1,29 @@
-.body{
+*{
     margin: 0;
     padding: 0;
-    inline-size: 100%;
-    block-size: 100vh;
-    background-image: url('/assets/images/index-background.png');
+    box-sizing: border-box;
+}
+.body{
+    color: var(--gray-silver);
+    text-transform: uppercase;
+    font-family: var(--);
+}
+.bg-img{
+    min-block-size: 100vh;
+    min-inline-size: 100vw;
+    background-image: url(../assets/images/index-background.png);
     background-repeat: no-repeat;
+    background-position: 60%;
+    background-attachment: fixed;
     background-size: cover;
-    background-position: center;
-    position: relative;
-    color: white;
-    font-family: 'Montserrat';
+    position: absolute;
+    overflow: hidden;
 }
 .bg{
-    background: linear-gradient(90deg,rgba(10, 6, 6, .6) 30%, transparent 100%);
-    block-size: inherit;
+    min-block-size: 100vh;
+    background: linear-gradient(90deg,rgba(11, 23, 36, 1) 36%, transparent 100%);
 }
 .wrap{
-    max-inline-size: 90rem;
+    inline-size: 90%;
     margin-inline: auto;
 }

@@ -3,51 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ORService | Home</title>
+    <title>OR Service | Inicio</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body class="body">
-    <div class="bg">
-        <div class="wrap">
-            <header class="header">
-                <div class="header-logo">
-                    <a href="/index.html">
-                        <img src="/assets/images/orservice-logo.png" alt="ORService logo" title="ORService logo" width="300">
+    <div class="bg-img">
+        <div class="bg">
+            <div class="wrap">
+                <header class="header">
+                    <a href="/">
+                        <img src="/assets/images/orservice-logo.png" alt="" width="200">
                     </a>
-                </div>
-                <nav class="header-nav">
-                    <ul class="header-list">
-                        <li class="header-item"><a href="#" class="active">Inicio</a></li>
-                        <li class="header-item"><a href="#" class="inactive">Servicios</a></li>
-                        <li class="header-item"><a href="#" class="inactive">Soluciones</a></li>
-                        <li class="header-item"><a href="#" class="inactive">Nosotros</a></li>
-                        <li class="header-item"><a href="#" class="inactive">Contacto</a></li>
-                    </ul>
-                </nav>
-                <a class="header-button" href="mailto:javierolguin56@hotmail.com?subject=Solicitud%20de%20asesoria&body=Hola,%20quiero%20más%20información%20de%20los%20servicios.">Solicitar asesoria</a>
-            </header>
-            <main>
-                <div class="hero">
-                    <h1 class="hero-title">Conectamos <span>Tecnonogia.</span></h1>
-                    <h2 class="hero-subtitle">Protegemos lo que te importa</h2>
-                    <p class="hero-text">Soluciones integrales en comunicaciones, tecnologia y seguridad para impulsar tu negocio hacia el futuro.</p>
-                    <div class="icons">
-                        <div class="icon-tecnology icon">
-                            <img src="/assets/images/comunicaciones-logo.png" alt="" width="150">
-                            <p>Comunicaciones</p>
+                    <nav class="header-nav"></nav>
+                        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+                        <!-- Icono de Hamburguesa (Label conectado al checkbox) -->
+                        <label for="menu-toggle" class="burger-button">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </label>
+                    
+                        <ul class="header-list">
+                            <li class="header-item"><a href="">Nosotros</a></li>
+                            <li class="header-item"><a href="">Servicios</a></li>
+                            <li class="header-item"><a href="">Contacto</a></li>
+                            <a class="header-email" href="mailto:javierolguin56@hotmail.com?subject=Asesoria&body=Hola,%20quiero%20más%20información%20de%20los%20servicios que ofrecen.">Emial</a>
+                        </ul>
+                    </nav>
+                    <a class="email" href="mailto:javierolguin56@hotmail.com?subject=Asesoria&body=Hola,%20quiero%20más%20información%20de%20los%20servicios que ofrecen.">Emial</a>
+                </header>
+                <main class="main">
+                    <section class="main-info">
+                        <h1 class="main-title">Conectamos <span>Tecnología.</span></h1>
+                        <h2 class="main-subtitle">Protegemos lo que importa.</h2>
+                        <p class="main-text">Soluciones integrales en comunicaciones, tecnología y seguridad para impulsar tu negocio hacia el futuro.</p>
+                        <div class="main-icons">
+                            <div class="main-card">
+                                <div class="main-icon">
+                                    <img src="/assets/images/comunicaciones-logo.png" alt="logo comunicaciones" title="logo comunicaciones" width="100">
+                                </div>
+                                <p>Comunicaciones</p>
+                            </div>
+
+                            <div class="main-card">
+                                <div class="main-icon">
+                                    <img src="/assets/images/tecnologia-logo.png" alt="logo tecnologia" title="logo tecnologia" width="100">
+                                </div>
+                                <p>Tecnología</p>
+                            </div>
+
+                            <div class="main-card">
+                                <div class="main-icon">
+                                    <img src="/assets/images/seguridad-logo.png" alt="logo seguridad" title="logo seguridad" width="100">
+                                </div>
+                                <p>Seguridad</p>
+                            </div>
                         </div>
-                        <div class="icon-comunication icon">
-                            <img src="/assets/images/tecnologia-logo.png" alt="" width="150">
-                            <p>Tecnologia</p>
-                        </div>
-                        <div class="icon-security icon">
-                            <img src="/assets/images/seguridad-logo.png" alt="" width="150">
-                            <p>Seguridad</p>
-                        </div>
-                    </div>
-                    <a class="header-button" href="/assets/catalogo-servicios.pdf" download="catalogo-orservice.pdf">Descarga nuestro catalogo</a>
-                </div>
-            </main>
+                        <a class="main-pdf" href="/assets/catalogo-servicios.pdf" download="orservice-catalogo.pdf">PDF ORService Servicios</a>
+                    </section>
+                </main>
+            </div>
         </div>
     </div>
 </body>
