@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/franc539/public_html/
-    - /cp -r $DEPLOYPATH
+    - rsync -av --delete ./ $DEPLOYPATH
