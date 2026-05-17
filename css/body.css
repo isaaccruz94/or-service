@@ -11,7 +11,7 @@
 .bg-img{
     min-block-size: 100vh;
     min-inline-size: 100vw;
-    background-image: url(../assets/images/index-background.png);
+    background-image: url("../assets/images/index-background.jpg");
     background-repeat: no-repeat;
     background-position: 60%;
     background-attachment: fixed;
